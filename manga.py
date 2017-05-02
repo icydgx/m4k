@@ -39,11 +39,11 @@ for j in range(mangaChapterFirst, mangaChapterEnd + 1):
             out_file.write(page.content)
             a = os.path.getsize(filePath)
             # print(a)
-            if i == mangaCounter and a <= 74252:
-                print('find useless file')
-                out_file.close()
-                remove(filePath)
-                print('delete useless file done')
+            # if i == mangaCounter and a <= 74252:
+            #     print('find useless file')
+            #     out_file.close()
+            #     remove(filePath)
+            #     print('delete useless file done')
     print("this chapter is downloading done")
 
 print("this manga downloading done")
