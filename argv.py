@@ -6,7 +6,7 @@ def k(argv):
     mangaName = ''
 
     try:
-        opts, args = getopt.getopt(argv, "hn:a", ["mname"])
+        opts, args = getopt.getopt(argv, "hn:", ["mname"])
     except getopt.GetoptError:
         print('test.py -i <inputfile> -o <outputfile>')
         sys.exit(2)
